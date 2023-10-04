@@ -1,9 +1,9 @@
 # PHP_TUTO_FR
 
-## Qu'est-ce que PHP ?
+## Qu'est-ce que PHP ?🤔
 PHP (Hypertext Preprocessor) est un langage de programmation côté serveur conçu pour développer des sites web dynamiques. Il est très populaire et largement utilisé dans le développement web.
 
-## Pourquoi apprendre PHP ?
+## Pourquoi apprendre PHP ?📝
 PHP est utilisé pour créer des sites web interactifs qui peuvent effectuer des actions comme traiter des formulaires, se connecter à des bases de données, générer des pages web dynamiquement et plus encore. C'est un excellent langage à apprendre si vous souhaitez créer des sites web interactifs et personnalisés.
 
 1. Facilité d'apprentissage : PHP est souvent recommandé aux débutants en programmation car il est relativement facile à apprendre. Sa syntaxe est similaire à celle d'autres langages de programmation courants, comme JavaScript et C, ce qui en facilite la compréhension.
@@ -28,7 +28,7 @@ PHP est utilisé pour créer des sites web interactifs qui peuvent effectuer des
 
 En résumé, PHP est un excellent choix pour les débutants en programmation en raison de sa facilité d'apprentissage, de son abondance de ressources en ligne, de son utilisation généralisée et de sa polyvalence. Il offre une base solide pour le développement web et constitue un excellent point de départ pour ceux qui souhaitent se lancer dans la programmation web.
 
-## Comment fonctionne PHP ?
+## Comment fonctionne PHP ?⚙️
 PHP fonctionne côté serveur, ce qui signifie que le code PHP est exécuté sur le serveur web, puis le résultat est envoyé au navigateur de l'utilisateur. Voici comment cela fonctionne en quelques étapes :
 
 * Le navigateur envoie une demande au serveur : Lorsque vous tapez une URL dans votre navigateur et appuyez sur "Entrée", une demande est envoyée au serveur web.
