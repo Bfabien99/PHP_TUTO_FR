@@ -50,6 +50,71 @@ En PHP, vous écrivez du code entre des balises `<?php` et `?>`. Par exemple :
 Dans cet exemple, le code PHP affiche "Bonjour, monde!" lorsque la page est chargée.
 
 ## Programme
+### Semaine 1-2 : Introduction à PHP
+    Jour 1 : Présentation de PHP, son histoire et son utilité. Installation d'un environnement de développement PHP (comme XAMPP ou WAMP).
+    Jour 2 : Écriture de votre premier script PHP pour afficher "Bonjour, monde!" dans le navigateur.
+    Jour 3 : Variables et types de données en PHP.
+    Jour 4 : Opérateurs et expressions.
+    Jour 5 : Les commentaires et la documentation du code.
+
+### Semaine 3-4 : Structures de contrôle
+
+    Jour 1 : Les structures conditionnelles (if, else, elseif).
+    Jour 2 : Les boucles (for, while, foreach).
+    Jour 3 : Les tableaux en PHP.
+    Jour 4 : Utilisation de structures de contrôle pour résoudre des problèmes simples.
+    Jour 5 : Exercices pratiques pour renforcer la compréhension des structures de contrôle.
+
+### Semaine 5-6 : Fonctions et inclusion de fichiers
+
+    Jour 1 : Les fonctions en PHP : création, appel, passage de paramètres.
+    Jour 2 : Retour de valeurs depuis les fonctions.
+    Jour 3 : Portée des variables (variables locales et globales).
+    Jour 4 : Inclusion de fichiers pour organiser le code.
+    Jour 5 : Création de fonctions personnalisées pour résoudre des problèmes.
+
+### Semaine 7-8 : Travailler avec les formulaires
+
+    Jour 1 : Création d'un formulaire HTML.
+    Jour 2 : Soumission de données de formulaire à un script PHP.
+    Jour 3 : Validation des données de formulaire.
+    Jour 4 : Stockage des données de formulaire dans des variables PHP.
+    Jour 5 : Exercices pratiques de création et de traitement de formulaires.
+
+### Semaine 9-10 : Bases de données et MySQL
+
+    Jour 1 : Introduction aux bases de données et à MySQL.
+    Jour 2 : Connexion à une base de données MySQL depuis PHP.
+    Jour 3 : Exécution de requêtes SQL pour lire des données.
+    Jour 4 : Insertion, mise à jour et suppression de données.
+    Jour 5 : Réalisation d'un projet de base de données simple (par exemple, un gestionnaire de tâches).
+
+### Semaine 11-12 : Concepts avancés et projets
+
+    Jour 1 : Introduction à la programmation orientée objet (POO) en PHP.
+    Jour 2 : Création de classes et d'objets en PHP.
+    Jour 3 : Héritage et encapsulation en POO.
+    Jour 4 : Création d'un mini-projet en PHP qui met en pratique les concepts appris.
+    Jour 5 : Finalisation et présentation des projets.
+
+### Semaine 13 : Sécurité et bonnes pratiques
+
+    Jour 1 : Gestion des erreurs et des exceptions.
+    Jour 2 : Sécurité des données de formulaire et des bases de données.
+    Jour 3 : Utilisation de bibliothèques de sécurité en PHP.
+    Jour 4 : Introduction aux sessions et aux cookies pour gérer l'authentification.
+    Jour 5 : Révision des bonnes pratiques en programmation PHP.
+
+### Semaine 14 : Introduction aux frameworks PHP (en option)
+
+    Jour 1 : Présentation des frameworks PHP populaires (par exemple, Laravel ou Symfony).
+    Jour 2 : Installation d'un framework et création d'un projet simple.
+    Jour 3-5 : Exploration des fonctionnalités du framework et création d'un projet plus avancé.
+
+### Semaine 15-16 : Projets finaux et évaluation
+
+    Les élèves travaillent sur des projets individuels ou en équipe qui mettent en pratique toutes les compétences acquises au cours du programme.
+    Évaluation des projets et rétroaction.
 
  - [Installation](https://github.com/Bfabien99/PHP_TUTO_FR/tree/main/installation)
  - [Sessions](https://github.com/Bfabien99/PHP_TUTO_FR/tree/main/sessions)
