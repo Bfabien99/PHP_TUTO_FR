@@ -118,3 +118,4 @@ Dans cet exemple, le code PHP affiche "Bonjour, monde!" lorsque la page est char
 
  - [Installation](https://github.com/Bfabien99/PHP_TUTO_FR/tree/main/installation)
  - [Sessions](https://github.com/Bfabien99/PHP_TUTO_FR/tree/main/sessions)
+ - [Programmation Orientée Objet](https://github.com/Bfabien99/PHP_TUTO_FR/tree/main/POO)
