@@ -16,6 +16,10 @@ class Personne {
     public function direBonjour() {
         echo "Bonjour !";
     }
+
+    public function direAge() {
+        echo "J'ai " . $this->nom;
+    }
 }
 ?>
 ```
@@ -75,6 +79,38 @@ Ainsi, lorsqu'un objet est créé, `vous pouvez passer des valeurs au constructe
   $personne1->direBonjour(); // Affiche "Bonjour, je m'appelle John"
 ?>
 ```
+
+## $this
+Le mot-clé `$this` est l'un des concepts clés en programmation orientée objet (POO) en PHP et dans d'autres langages de programmation. `Il fait référence à l'instance actuelle de la classe dans laquelle il est utilisé`. Le mot-clé `$this permet d'accéder aux propriétés et méthodes de l'objet courant`. En d'autres termes, `il fait référence à l'objet sur lequel les méthodes sont appelées`.
+* `Accès aux propriétés de l'objet` : Vous pouvez utiliser `$this pour accéder aux propriétés de l'objet` dans lequel vous travaillez. Par exemple, si vous avez une classe Personne avec une propriété nom, vous pouvez y accéder ainsi:
+* `Appel des méthodes de l'objet` : Vous pouvez également utiliser `$this` pour `appeler d'autres méthodes de l'objet courant`. Par exemple :
+  ```php
+    <?php
+      class Calculatrice {
+          public function addition($a, $b) {
+              return $a + $b;
+          }
+
+          public function additionDouble($a) {
+              return $this->addition($a, $a);
+          }
+      }
+    ?>
+  ```
+  Ici, la méthode `additionDouble` appelle la méthode `addition` en utilisant `$this`, ce qui signifie que `la méthode est appelée sur l'objet courant ($this) de la classe Calculatrice`.
+* `Constructeurs et méthodes spéciales` : `$this` est souvent `utilisé dans le constructeur de la classe (__construct)` pour `initialiser les propriétés de l'objet lors de son instanciation`. Par exemple :
+  ```php
+    <?php
+      class Personne {
+          public $nom;
+
+          public function __construct($nom) {
+              $this->nom = $nom;
+          }
+      }
+    ?>
+  ```
+  Lorsque vous créez un nouvel `objet Personne`, vous pouvez passer `le nom en argument au constructeur`, et `$this->nom` est utilisé pour `affecter la valeur à la propriété nom`.
 
 ## Héritage et encapsulation en POO
 L'héritage et l'encapsulation sont deux concepts importants de la programmation orientée objet (POO) en PHP. Ils permettent de créer des structures de code modulaires et réutilisables en organisant les classes et en contrôlant l'accès aux propriétés et aux méthodes.
